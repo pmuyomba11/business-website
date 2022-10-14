@@ -33,13 +33,20 @@
     background: #0284d0;
     color: #fff;
 }
-.btn-dark {
+.btn-dark,
+.bg-dark {
     background: #333;
     color: #fff;
 }
-.btn-light {
+.btn-light,
+.bg-light {
     background: #f4f4f4;
     color: #333;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
 }
 
 
@@ -77,4 +84,33 @@
 .flex-columns .colunm .column-2 {
     height: 100%;
 
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2 {
+display: flex;
+flex-direction: column;
+align-items: flex-start ;
+justify-content: center;
+padding: 20px;
+height: 100%;
+}
+
+.flex-columns h2 {
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.flex-columns h4 {
+    margin-bottom: 10px;
+}
+
+.flex-columns p {
+    margin: 20px 0;
 }
