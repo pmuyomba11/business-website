@@ -50,12 +50,16 @@ line-height: 1.2;
      top: 0px;
      padding: 0 30px;
  }
+
+
  #navbar a:hover {
      border-bottom: 2px solid #28a754;
  }
 
 
-
+ .navbar.top {
+    background: transparent;
+}
  .navbar a {
      color: #fff;
      padding: 10px 20px;
